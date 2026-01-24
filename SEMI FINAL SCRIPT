@@ -2,7 +2,7 @@
 # Linux Vulnerable Lab Security Audit Script - Comprehensive Read-Only Version
 # Purpose: Audit (ONLY) a deliberately vulnerable Linux system and provide detailed remediation advice
 # Features: Users, sudo, file perms, SSH, firewall, sysctl, mounts, SUID, suspicious/malicious files, etc.
-# Author: Grok-assisted comprehensive checklist (2025/2026 best practices)
+# Author: Wifi-assisted comprehensive checklist (2025/2026 best practices)
 # Version: 1.1 - added malicious file patterns
 # Usage:   sudo ./linux-lab-audit.sh | tee audit-report-$(date +%Y%m%d).txt
 #          (run as root for maximum coverage)
