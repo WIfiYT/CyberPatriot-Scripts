@@ -1,7 +1,20 @@
-Sudo rm (filepath): deletes with administrator privilidges.
+Sudo rm (filepath): deletes with administrator privilidges. requires admin.
 rm (filepath): deletes file/folder.
-sudo ufw enable: enables the firewall.
-sudo ufw status: checks status of firewall.
+sudo ufw enable: enables the firewall. requires admin.
+sudo ufw status: checks status of firewall. requires admin.
 cat (filepath): shows code of specific file.
 ls (filepath): shows directory and other folders and files.
-chmod (###) (filepath)
+sudo chmod (###) (filepath): chenges permissions for file. requires admin.
+sudo apt update: updates system for Ubuntu/Debian. required admin.
+sudo apt upgrade: updates large system stuff. requires admin.
+sudo deluser: deletes user. requires admin.
+
+
+
+
+
+
+
+
+Tips:
+if there is Sudo in any commmand, it requires administrator privelidges.
