@@ -1,0 +1,7 @@
+Sudo rm (filepath): deletes with administrator privilidges.
+rm (filepath): deletes file/folder.
+sudo ufw enable: enables the firewall.
+sudo ufw status: checks status of firewall.
+cat (filepath): shows code of specific file.
+ls (filepath): shows directory and other folders and files.
+chmod (###) (filepath)
