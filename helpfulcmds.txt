@@ -17,4 +17,5 @@ sudo deluser: deletes user. requires admin.
 
 
 Tips:
-if there is Sudo in any commmand, it requires administrator privelidges.
+if there is Sudo in any command, it requires administrator privileges.
+The purpose of cat in commands is to read, combine, and create text files directly in the terminal.
