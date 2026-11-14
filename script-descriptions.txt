@@ -1,0 +1,29 @@
+SEMI FINAL SCRIPT v1.0.0.(1,2,3):
+SEMI FINAL SCRIPT v1.0.0.3 (and its older versions) are comprehensive read-only Linux security audit scripts. They scan a system for common vulnerabilities and misconfigurations, 
+then print colored PASS / WARN / FAIL results with remediation advice. They do not change anything on the system.What they all do (shared core)
+System information (hostname, kernel, OS, uptime)
+User & group audit (empty passwords, extra UID 0 accounts, missing password aging)
+Sudo / privilege escalation checks (dangerous ALL ALL or NOPASSWD rules)
+Critical file permissions (/etc/passwd, /etc/shadow, /etc/sudoers, SSH config, etc.)
+World-writable files
+SSH security settings (PermitRootLogin, PasswordAuthentication, etc.)
+Firewall status (UFW, firewalld, iptables)
+Kernel hardening via sysctl
+Mount options on /tmp, /var/tmp, /dev/shm (nodev, nosuid, noexec)
+SUID/SGID binaries
+Suspicious / malicious file patterns (webshells, miners, backdoors, hidden files, recently modified files in volatile directories)
+They are designed for vulnerable lab images and are intentionally noisy.How the versions compare
+
+VersionMain additionSummary prioritiesNotesv1.0.0.1Malicious file pattern scanning7 items (no cron)Earliest version. Stops after file checks.v1.0.0.2Full cron job audit 
+(system + user crontabs, permissions, suspicious commands)8 items (includes cron)Adds the entire cron section.v1.0.0.3Running process audit (suspicious names, processes from /tmp, 
+deleted executables, high CPU, non-standard root processes)9 items (includes processes)Newest and most complete. Also recommends rkhunter, lynis, clamscan, etc. Author note mentions Grok-assisted.Key differences in plain terms
+v1.0.0.1 → Core hardening checks + suspicious file hunting
+v1.0.0.2 → Everything above + detailed cron job review
+v1.0.0.3 → Everything above + live process inspection (the most useful for catching active malware/miners)
+Recommendation: Use v1.0.0.3 as your main script. It is the most complete of the three. Run it with:Bashsudo bash "SEMI FINAL SCRIPT v1.0.0.3" | tee audit-report.txt
+
+{[REVIEW WAS FROM GROK FAST]}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+SEMI FINAL SCRIPT v1.0.0.4
