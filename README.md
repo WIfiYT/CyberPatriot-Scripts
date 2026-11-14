@@ -11,6 +11,7 @@ Do not copy these and claim that these are yours.
 It is not recommended to use these externally outside of Cyberpatriot competitions,
 as it might get you into trouble executing on random computers, but if you are authorized 
 by a cyberpatriot host then you may proceed with executing these files.
+This was patrially made with Grok. CyberPatriot 19 bans the use of AI.
 
 --------------------------------------------------------------------------------------------------------------
 
