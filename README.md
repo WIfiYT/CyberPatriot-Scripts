@@ -38,6 +38,4 @@ System_Mangement (LINUX-MINT) — Bash equivalent of the above for Linux (list p
 
 helpfulcmds.txt — Cheat sheet of basic useful commands (rm, ufw, chmod, apt, etc.) with short tips.
 
-script-descriptions.txt — Longer explanations of the SEMI FINAL SCRIPT versions (what each adds and how they compare).
-
 creditsandrules.txt — Owner (WifiStudios), head coders, and simple usage rules (don’t claim as yours; use carefully outside authorized CyberPatriot environments).
