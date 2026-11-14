@@ -1,0 +1,11 @@
+chmod +x old_account_detector.sh
+
+ How to execute
+ Default: flag accounts idle > 90 days
+./old_account_detector.sh
+
+ Custom threshold (e.g. 180 days)
+./old_account_detector.sh 180
+
+ Also show system accounts
+./old_account_detector.sh 90 --all
