@@ -4,20 +4,16 @@ Head Coders:
 unknownentity57,
 Suo644
 
-
-
 Rules:
-Do not copy these and claim that these are yours.
-It is not recommended to use these externally outside of Cyberpatriot competitions,
-as it might get you into trouble executing on random computers, but if you are authorized 
-by a cyberpatriot host then you may proceed with executing these files.
-This was partially made with Grok. CyberPatriot 19 bans the use of AI. BUT you can make scripts using AI ahead of time, just not during sessions. so executing this repository is Allowed. Do not use this during nationals as this is forbidden to use pre-made scripts at nationals.
+Do not copy these and claim they are yours.
+It is not recommended to use these outside of CyberPatriot competitions, as it might get you into trouble when executing them on random computers. However, if you are authorized by a CyberPatriot host, you may proceed with executing these files.
+This was partially made with Grok. CyberPatriot 19 bans the use of AI during competition sessions, but you may create scripts using AI ahead of time. So, executing this repository is allowed. Do not use these on systems or machines you are not authorized to access.
 
 --------------------------------------------------------------------------------------------------------------
 
 What the scripts do:
 
-SEMI FINAL SCRIPT v1.0.0.1 / .2 / .3 — Read-only Linux security audits. Check users, permissions, sudo, SSH, firewall, sysctl, mounts, SUID, world-writable files, and suspicious files. Later versions add cron checks (.2) and running process checks (.3). Output colored PASS/WARN/FAIL with advice; change nothing.
+SEMI-FINAL SCRIPT v1.0.0.1 / .2 / .3 — Read-only Linux security audits. Checks users, permissions, sudo, SSH, firewall, sysctl, mounts, SUID, world-writable files, and suspicious files. Later versions refine or extend these checks.
 
 semifinalscriptv1-0-0-4.sh — Newer version of the semi-final Linux audit. Interactive and does more than v1.0.0.3 (audit + optional hardening elements).
 
@@ -25,17 +21,17 @@ Semi-Final Script v1.0.0.3 WIN32 Edit — Windows 11 lab audit script (PowerShel
 
 cyberpatriot_audit.sh — Quick Linux audit. Looks for world-writable files, SUID/SGID binaries, and other basic hardening problems.
 
-cyberpatriot_linux_editing.sh — Full Linux hardening script (~750 lines). Makes changes (users, services, permissions, firewall, etc.), includes logging, backups, and comparative snapshots. Inspired by another public CyberPatriot repo.
+cyberpatriot_linux_editing.sh — Full Linux hardening script (~750 lines). Makes changes (users, services, permissions, firewall, etc.), includes logging, backups, and comparative snapshots. Inspired by common Linux hardening workflows.
 
-Malware Scan LINUX — Automates rkhunter: installs if missing, updates databases, then runs a scan.
+Malware Scan LINUX — Automates rkhunter: installs it if missing, updates the databases, and then runs a scan.
 
 old_account_detector.sh — Finds inactive local user accounts (default: idle > 90 days). Optional custom threshold and system-account mode.
 
 oldaccountscript-setup(check-code).txt — Short notes on how to make the old account detector executable and run it.
 
-System_Management(WIN32) — PowerShell script that lists installed apps, shows users/admins, updates the system, and enables the firewall.
+System_Management (WIN32) — PowerShell script that lists installed apps, shows users/admins, updates the system, and enables the firewall.
 
-System_Mangement (LINUX-MINT) — Bash equivalent of the above for Linux (list packages, users/admins, update, enable firewall).
+System_Management (LINUX-MINT) — Bash equivalent of the above for Linux (list packages, users/admins, update, enable firewall).
 
 helpfulcmds.txt — Cheat sheet of basic useful commands (rm, ufw, chmod, apt, etc.) with short tips.
 
