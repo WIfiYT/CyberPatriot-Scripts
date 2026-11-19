@@ -1,8 +1,8 @@
 Owner: 
-WifiStudios
+WifiStudios.
 Head Coders:
 unknownentity57,
-Suo644
+Suo644.
 
 Rules:
 Do not copy these and claim they are yours.
